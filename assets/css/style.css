@@ -36,10 +36,10 @@ html, body {
 }
 
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 a {
 	color: #e66f69;
@@ -69,7 +69,7 @@ a:hover,a:active,a:focus{
     font-weight: 300;
     text-align: center;
     overflow: hidden;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
 }
 .block_title:before,.block_title:after {
     content: "";
@@ -105,7 +105,7 @@ header{
     color: #fff;
 }
 .bigheadline {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Dancing Script', cursive;
 	font-weight: 100;
 	font-size: 10em;
 	margin: 0;
@@ -231,7 +231,7 @@ header{
     border-radius: 50%;
 }
 .service-wrap i {
-    margin-top: 40px;
+    margin-top: 25px;
     transition: all 0.3s ease;
 }
 .service-wrap:hover i {
@@ -439,7 +439,8 @@ header{
 	width: 100%;
 }
 #contact-area {
-    background: rgba(0, 0, 0, 0.7);
+	background-image: url(/assets/images/parallax.jpg);
+	filter: grayscale(20%);
     width: 100%;
     position: relative;
     padding: 80px 0px 60px 0px;
@@ -448,6 +449,15 @@ header{
 .moreDetails {
 	color: #fff;
 	text-align: center;
+	
+}
+.info {
+	margin: 0 auto 20px auto;
+}
+ .info img {
+	width: 100px;
+	height: auto;
+	border-radius: 50%;
 }
 .con-title {
     font-weight: 300;
@@ -493,7 +503,7 @@ header{
 /*Social media links*/
 
 #social {
-    background-color: rgba(0, 0, 0, 0.75) !important;
+	background-color: #000;
     padding: 30px 0px 30px 0px;
     position: relative;
 }
@@ -520,7 +530,7 @@ header{
     display: block;
     width: 50px;
     height: 50px;
-    background-size: 100% 200%;
+    /* background-size: 100% 200%; */
 }
 
 .social-icons a:hover {
@@ -540,6 +550,15 @@ header{
 }
 .wordpress{
 	background-image: url(../images/wordpress.png);
+}
+.github {
+	background-image: url(../svg/iconmonstr-github-1.svg);
+	width: 50px;
+	height: 50px;
+	background-size: cover;
+}
+.github:hover {
+	background-image: url(../svg/iconmonstr-github-2.svg);
 }
 
 
@@ -581,7 +600,7 @@ footer {
 		font-size: 3em;
 	}
 	.bigheadline {
-		font-size: 15em;
+		font-size: 10em;
 	}
 	.subheadline {
 		font-size: 5em;
@@ -685,7 +704,7 @@ footer {
 	    font-size: 4em;
 	}
 	.subheadline {
-	    font-family: 'Titillium Web',sans-serif;
+	    font-family: 'Dosis',sans-serif;
 	    font-size: 1.5em;
 	    font-weight: 200;
 	    margin: 0;
