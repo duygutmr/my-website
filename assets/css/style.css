@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'Montserrat', sans-serif;
 }
 a {
-	color: #e66f69;
+	color: #15aabf;
 	transition: 0.4s ease all;
 	outline: none;
 }
@@ -165,6 +165,9 @@ header{
     font-size: 3em;
     color: #fff;
     padding-top: 10px;
+}
+.pe-7s-menu:hover {
+	color: #15aabf;
 }
 .dropdown-menu {
     min-width: 240px;
@@ -559,6 +562,13 @@ header{
 }
 .github:hover {
 	background-image: url(../svg/iconmonstr-github-2.svg);
+}
+.medium {
+	background-image: url(../svg/medium-brands.svg);
+	background-size: cover;
+}
+.medium:hover {
+	background-image: url(../svg/medium-hover.svg);
 }
 
 
