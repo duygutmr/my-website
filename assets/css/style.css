@@ -36,10 +36,10 @@ html, body {
 }
 
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 a {
 	color: #15aabf;
@@ -65,7 +65,7 @@ a:hover,a:active,a:focus{
     color: #000;
 }
 .block_title {
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 300;
     text-align: center;
     overflow: hidden;
@@ -95,7 +95,7 @@ a:hover,a:active,a:focus{
 /////////////////////////////////////////////////////////////////////*/
 
 header{
-	background: url(../images/bg.jpg) no-repeat;
+	background: url(../images/bg2.jpg) no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: 50% -50px;
@@ -432,7 +432,7 @@ header{
 
 .mapWrap {
 	position: relative;
-    min-height: 600px;
+    min-height: 500px;
 }
 #Map {
     position: absolute !important;
